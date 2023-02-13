@@ -25,3 +25,5 @@ const projects = [
         github: 'https://group7-smokequitter.herokuapp.com/',
     },
 ];
+
+export default projects;
