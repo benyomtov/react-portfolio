@@ -8,6 +8,7 @@ export default function Project({ projects }) {
                     <div className="card shadow-lg p-2 rounded-4">
                         <h1>{project.name}</h1>
                         <img src='https://via.placeholder.com/150x150'></img>
+                        <a href={project.githublink} className="btn btn-primary">Github</a>
                     </div>
                 </a>
             ))}

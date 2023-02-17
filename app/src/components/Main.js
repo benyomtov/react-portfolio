@@ -8,7 +8,7 @@ import Resume from './Resume';
 
 export default function Main(){
 
-    const [currentPage, setCurrentPage] = useState('Contact');
+    const [currentPage, setCurrentPage] = useState('About');
 
     const renderPage = () => {
         if (currentPage === 'Portfolio') {
