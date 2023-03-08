@@ -44,7 +44,7 @@ function Form() {
   };
 
   return (
-    <div className="d-flex flex-column align-items-center">
+    <div className="mt-5 d-flex flex-column align-items-center">
         <h1 className='display-5 text-center'>Contact Me:</h1>
       <form className="form col-6 p-3 text-center" action="https://formsubmit.co/benyomtov@comcast.net" method="POST" onSubmit={handleSubmit}>
         <label className="form-label">Name</label>

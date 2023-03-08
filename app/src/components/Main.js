@@ -25,7 +25,7 @@ export default function Main(){
 
  
     return (
-        <div className="container-fluid d-flex flex-column">     
+        <div className="container-fluid p-0 d-flex flex-column">     
             <Header currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
             <Footer /> 

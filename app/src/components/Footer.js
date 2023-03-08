@@ -13,7 +13,7 @@ export default function Footer() {
 
 
     return (
-        <div className='footer row bg-primary p-3 fixed-bottom'>
+        <div className='footer row bg-black p-3 fixed-bottom'>
             <div className='text-center'>
                 <a style={styles.sizing} href="https://www.linkedin.com/in/benjamin-yomtov-5a857b16b" className="text-white px-2"><BsLinkedin /></a>
                 <a style={styles.sizing} href='https://github.com/benyomtov' className="text-white px-2"><BsGithub /></a>
