@@ -6,9 +6,9 @@ const pdfPath = '/resume.docx';
 
 return (
     <div className="mt-5 d-flex flex-column align-items-center vh-100" >
-        <a className='display-4 shadow-lg m-3 p-2 rounded-4 text-decoration-none' href={pdfPath} download>Click this Link to download my resume!</a>
-        <h2 className='display-5 text-center'>Technologies:</h2>
-        <ul  className='h1 text-center'>
+        <a style={{ fontFamily: "Fredoka One" }} className='display-4 shadow-lg m-3 p-2 rounded-4 text-decoration-none text-center' href={pdfPath} download>Click this Link to download my resume!</a>
+        <h2 className='display-4 text-center'>Technologies:</h2>
+        <ul  className='h1 text-center list-unstyled'>
             <li>React</li>
             <li>MongoDB</li>
             <li>Apollo/graphQL</li>

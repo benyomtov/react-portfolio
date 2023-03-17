@@ -2,6 +2,7 @@ import React from 'react';
 import { BsTwitter } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
+import { FiMail } from "react-icons/fi";
 
 export default function Footer() {
 
@@ -13,10 +14,11 @@ export default function Footer() {
 
 
     return (
-        <div className='footer row bg-black p-3 fixed-bottom'>
+        <div style={{ backgroundColor: "#12294d" }} className='footer row p-3 fixed-bottom'>
             <div className='text-center'>
                 <a style={styles.sizing} href="https://www.linkedin.com/in/benjamin-yomtov-5a857b16b" className="text-white px-2"><BsLinkedin /></a>
                 <a style={styles.sizing} href='https://github.com/benyomtov' className="text-white px-2"><BsGithub /></a>
+                <a style={styles.sizing} href='mailto:benyomtov@comcast.net' className="text-white px-2"><FiMail /></a>
             </div>
         </div>
     )
