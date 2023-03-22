@@ -3,8 +3,8 @@ import React from 'react';
 export default function Header({ currentPage, handlePageChange }) {
     return (
         <div style={{ width: "100%", backgroundColor: "#12294d" }} className='header row m-0'>
-            <h1 style={{ fontFamily: "Fredoka One" }} className='col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 text-white display-1'>Ben Yomtov</h1>
-            <div className='col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12 links pt-4 pe-5 text-end'>
+            <h1 style={{ fontFamily: "Fredoka One", textShadow: "-3px 3px 2px gray" }} className='col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 text-white display-1'>Ben Yomtov</h1>
+            <div style={{ textShadow: "-2px 2px 2px gray" }} className='col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12 links pt-4 pe-5 text-end'>
                 <a href="#about"
                 style={{ fontFamily: "Fredoka One", fontSize: "calc(1.1rem + .5vw)" }}
                 onClick={() => handlePageChange('About')}  

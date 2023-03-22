@@ -47,7 +47,7 @@ function Form() {
   };
 
   return (
-    <div className="mt-5 d-flex flex-column align-items-center">
+    <div style={{ height: "40rem" }} className="mt-5 d-flex flex-column align-items-center">
         <h1 style={{ fontFamily: "Fredoka One" }} className='display-5 text-center'>Contact Me:</h1>
       <form action="https://formspree.io/f/meqwzbyw" method="POST" className="form col-xxl-3 col-xl-3 col-lg-4 col-md-5 col-sm-7 col-9 p-3 text-center" onSubmit={handleSubmit}>
         <label className="lead p-2">Name</label>
@@ -73,7 +73,7 @@ function Form() {
         <label className="form-text">I'll never share your email.</label>
         <br></br>
         <label className="lead p-2">Comment</label>
-        <textarea className="form-control h-100"
+        <textarea className="form-control"
           value={formData.comment}
           name="comment"
           type="textarea"
