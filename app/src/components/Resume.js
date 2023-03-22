@@ -2,7 +2,7 @@ import React from 'react';
 
 function Resume () {
 
-const pdfPath = '/assets/resume.docx';
+const pdfPath = '/assets/resume.pdf';
 
 return (
     <div className="mt-5 d-flex flex-column align-items-center vh-100" >
