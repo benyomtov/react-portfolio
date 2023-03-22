@@ -1,12 +1,13 @@
 import React from 'react';
+import pdf from '../assets/resume.pdf';
 
 function Resume () {
 
-const pdfPath = '/assets/resume.pdf';
-
 return (
     <div className="mt-5 d-flex flex-column align-items-center vh-100" >
-        <a style={{ fontFamily: "Fredoka One" }} className='display-4 shadow-lg m-3 p-2 rounded-4 text-decoration-none text-center' href={pdfPath} download>Click this Link to download my resume!</a>
+        <a style={{ fontFamily: "Fredoka One" }} 
+        className='display-4 shadow-lg m-3 p-2 rounded-4 text-decoration-none text-center' 
+        href={pdf} download>Click this Link to download my resume!</a>
         <h2 className='display-4 text-center'>Technologies:</h2>
         <ul  className='h1 text-center list-unstyled'>
             <li>React</li>
